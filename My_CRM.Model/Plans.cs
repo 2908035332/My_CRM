@@ -22,7 +22,7 @@ namespace My_CRM.Model
         [Display(Name = "计划时间")] 
         public DateTime? PlanDate { get; set; }
         
-        [Display(Name = "计划内容")]
+        [Display(Name = "计划内容")] 
         public string PlanContent { get; set; } 
         
         [Display(Name = "执行时间")]
